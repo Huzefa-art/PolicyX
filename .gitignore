@@ -1,0 +1,10 @@
+venv/
+
+**/migrations/*.py
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+/backend/chatbot/.env
+__pycache__/
+config.bat
+node_modules

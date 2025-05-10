@@ -1,0 +1,145 @@
+
+tbody{
+  font-family: "poppins";
+ 
+    background-color: #f4f4f4;
+
+  
+}
+.notifi-container {
+  margin: 20px;
+}
+
+.user-table {
+  width: 84%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  margin-left: 246px;
+  height: auto;
+  margin-top: 15px;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid;
+  border-color: #c9c9c98e;
+  padding: 2px;
+  padding-top: 10px;
+  text-align: center;
+
+  padding-bottom: 10px;
+}
+
+.user-table th {
+  background-color: #f5f5f5;
+  color: #0b5485;
+}
+
+.user-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.status {
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.bid-place {
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  padding: 8px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.bid-place:hover{
+  background-color: #1587d3;
+
+}
+
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-container i {
+  color: #ff4081;
+  font-size: 18px;
+}
+
+
+
+.expired {
+  background-color: #ffebee;
+}
+.insurance_heading{
+  font-size: 25px;
+  align-self: center;
+  font-family: "poppins";
+  color: #0b5485;
+font-weight: 800;
+}
+.navbar{
+  background-color: #3498DB;
+  font-family: "poppins";
+
+}
+.logo{
+  background-color: #3498DB;
+}
+/* .case_search input{
+  width: 20%;
+  margin-left: 267px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: -20px;
+} */
+
+.search-filter-container {
+  display: flex;
+  gap: 10px;
+  margin-top: -40px;
+}
+
+.case_search input {
+  width: 70%;
+  margin-left: 247px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  
+}
+
+.status-filter {
+  display: flex;
+  gap: 10px; 
+  margin-left: 650px;
+}
+
+.status-filter button {
+  padding: 8px 34px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.status-filter button.active {
+  background-color: #3498DB;
+  color: #fff;
+}
+
+

@@ -1,0 +1,171 @@
+.panel {
+  display: flex;
+  /* gap: 45px; */
+  /* margin: auto; */
+  /* position: absolute; */
+  padding: 20px;
+  margin-left: 255px;
+  gap: 33px;
+  /* right: 2px; */
+  justify-content: center;
+  /* border-radius: 12px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.bid-select{
+  color: #5e5e5e;
+}
+.bid-input{
+  color: #5e5e5e;
+
+}
+select{
+  border:1px solid #ddd;
+}
+
+.bid_cont {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border: 1px solid #ddd;
+  width: 48%;
+  margin-top: -45px;
+  box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background-color: #f4f4f4;}
+
+.bid-label {
+  display: block;
+  margin-bottom: 1px;
+  font-family: "poppins";
+  
+  color: #396291;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+.card-styleh3 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  color: #396291;
+  font-weight: 600;
+
+  font-family: 'Poppins';
+  /* font-family: auto; */
+}
+.card-style p {
+  font-size: 18px;
+  margin-bottom: 27.5px;
+  
+  font-family: 'Poppins';
+  margin-left: 20px;
+}
+
+bid-select,
+bid-input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+bid-select:focus,
+bid-input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.place-bid {
+  background-color: #3498DB;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  font-family: 'Poppins';
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.place-bid:hover {
+  background-color: #1587d3;
+}
+.card-style {
+  border: 1px solid #ccc;
+/* padding: 10px; */
+margin-top: -45px;
+padding-top: 22px;
+border-radius: 12px;
+width: 48%;
+background: #f9f9f9;
+letter-spacing: 0.5px;
+padding-left: 10px;
+box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+height: 671px;
+
+background-color: #f4f4f4;
+}
+.send-button {
+  background-color: #3498DB;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 9px;
+  /* width: 315px; */
+  width: 91%;
+  margin-left: 20px;
+  font-family: 'Poppins';
+}
+
+
+.send-button:hover {
+  background-color: #1587d3;
+}
+.bid_heading{
+ letter-spacing: 0.8px;
+    font-size: 30px;
+    align-self: center;
+    font-family: "poppins";
+    color: #0b5485;
+    font-weight: 800;
+text-align: center;
+}
+
+.err-msg{
+  color:rgb(219, 143, 143);
+}
+
+
+/* .bid_button{
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    width: 50%;
+    margin-top: 300px;
+}
+.bid_button button{
+    margin-top: 30px;
+    color: white;
+    font-weight:bold;
+    font-size: 20px;
+}
+.bid_button label {
+    font-size: 40px;
+    color: rgb(22, 20, 20);
+    font-weight:bold;
+}
+ video{
+position: fixed;
+z-index: -1;
+opacity: 0.8;
+width: 100%;
+} */

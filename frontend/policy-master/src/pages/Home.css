@@ -1,0 +1,143 @@
+
+.nav-bar{  background-color: #3498DB;
+  height: 90px;
+
+}
+.main_footer{
+   background-color: #3498DB;
+
+}
+.choose_heading{
+  font-family: 'Poppins';
+  font-weight: 600;
+
+}
+.main_footer{
+  font-family: 'Poppins';
+}
+.about_us{
+  font-family: 'Poppins';
+  background-color: #3498DB;
+
+}
+.testimonial{
+  font-family: 'Poppins';
+  background-color: #3498DB;
+}
+.nav-bar .nav_menu{
+  margin-top: 10px;
+}
+.visit{
+  font-family: 'Poppins';
+}
+.nav_menu{
+  margin-top: -10px;
+}
+
+  .main-images{
+    width: 90%;
+    margin-top: 40px;
+  }
+  .main-images .animate__animated.animate__pulse{
+    animation-iteration-count: infinite;
+    --animate-duration: 4s;
+
+  }
+  .homelogo .home_logo {
+    width: 10%;
+    position: absolute;
+    /* margin-top: -50px; */
+    top: -40px;} 
+   
+ 
+  .main{
+    display: flex;
+  }
+  .rounded-heading .animate__animated.animate__pulse {
+    --animate-duration: 4s;
+    animation-iteration-count: infinite;
+
+  }
+ 
+.rounded-heading span{
+  font-family: "Poppins";
+
+}
+.main-img{
+  display: flex;
+  gap: 30px;
+}
+.content_img{
+  margin-right: 110px;
+  margin-top: 20px;
+}
+
+.container__inner img{
+margin-left: 120px;
+width: 80%;
+}
+  .main-heading .animate__animated.animate__bounce{
+    --animate-duration: 2s;
+
+    margin-top: 40px;
+    font-family: "Poppins";
+    font-size: 50px;
+    color: #3498DB;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+  }
+  .main-heading  .animate__animated.animate__bounce span{
+    color: #0b5485;
+  }
+  /* @keyframes myframes {
+    0%   {color: red;}
+    15%  {color: yellow;}
+    25%  {color: blue;}
+    35% {color: green;}
+    45%  {color: yellow;}
+    55%  {color: blue;}
+    65% {color: green;}
+    75%  {color: yellow;}
+    85%  {color: blue;}
+    95% {color: green;}
+    100%  {color: yellow;}
+    
+  } */
+  .main-paragraph{
+    font-size: 20px;
+    font-family: "Poppins";
+    margin-top: 40px;
+    color: #54647a;
+  }
+  .hero-section{
+    margin-left: 100px;
+  }
+  .content_img h2{
+    color: #3498DB;
+    letter-spacing: -1.5px;
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Poppins';
+
+  }
+  .content_img p{
+    color: #54647a;
+    line-height: 29px;
+    font-family: "Poppins";
+
+    letter-spacing: -0.34px;
+    font-size: 20px;
+  }
+  .ourpartners h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+
+    color: #3498DB;
+  }
+ .ourpartners p{
+  color: #54647a;
+  font-family: "Poppins";
+
+ }

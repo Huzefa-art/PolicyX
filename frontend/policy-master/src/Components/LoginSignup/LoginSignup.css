@@ -1,0 +1,179 @@
+.popup{
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    font-family: "poppins";
+}
+
+.headers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.text{
+    color:#3498DB;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width:61px;
+    height:4px;
+    background: #63b3ed;
+    border-radius: 9px;
+}
+.inputs{
+  margin-top: 15px; 
+  display: flex;
+  flex-direction: column;
+  gap: 3px !important;
+
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 50px !important;
+    border-radius: 6px;
+}
+
+.input img{
+    margin: 0px 20px;
+}
+
+.input .place{
+       /* height: 50px; */
+       width: 430px;
+       /* border: none; */
+       outline: none;
+       color: black;
+       font-size: 15px;
+       padding-left: 12px;
+       border-radius: 10px;
+}
+
+.forgot-password{
+padding-left: 50px;
+margin-top: 27px;
+color:#6a6d71;
+font-size: 18px;
+}
+
+.forgot-password span{
+    color:rgb(99, 94, 164);
+    cursor:pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    /* margin: 60px auto; */
+    justify-content: center;
+    margin-top: 20px;
+}
+.submittion{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130%;
+    height: 50px;
+margin: auto; */
+    background: #4299e1;
+   
+    cursor: pointer;
+    color: #fff;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 170px 10px 170px;
+
+}
+.forgot-password span {
+  margin-right: 4px;
+}
+
+.gray{
+    background: #EAEAEA;
+    color: gray;
+}
+.switch-action{
+   display: flex;
+   justify-content: center; 
+   align-items:center;
+   margin-top: 20px;
+ 
+}
+.inputsmall{
+  
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    border-radius: 6px;
+    gap: 10px;
+}
+.inputsmall input{
+   
+ 
+    background: #fff;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.inputsmall img{
+
+    margin-right: 10px;
+}
+.sign_up_main{
+ background-size: cover;
+ height: 785px;
+ background-image: linear-gradient(to right top, #0b5485, #1d6395, #2b72a6, #3881b6, #4491c7, #5f9ace, #76a3d5, #8aacdc, #a5b2d9, #b8bad5, #c6c3d1, #cecdcf);
+}
+.account span{
+    cursor: pointer;
+    color: #4299e1;
+}
+.account span:hover{
+    cursor: pointer;
+    color: #0c5ba0;
+}
+.account{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.submit:hover{
+    background-color: #0c5ba0;
+}
+.signup_img .sign_img img{
+width: 70%;
+margin: 130px;
+
+}
+.signup_img {
+    display: flex;
+}
+.signup_popup{
+    margin: auto;
+    width: 27%;
+    position: relative;
+    top: 20px;
+    left: 60px;
+}
+.username_input{
+    position: relative;
+    left: 23px;}
+.error-message{
+    font-size: 10px;
+    margin-left: 25px;
+    color: red;
+}

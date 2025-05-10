@@ -1,0 +1,229 @@
+.main-dashboard{
+    padding-bottom: 100px;
+}
+.stats{
+    width: 200px;
+    margin-left: 292px;
+}
+.stats_content{
+    margin-left: -35px;
+    width: 50%;
+    margin-top: 37px; 
+}
+.chartmain{
+display: flex;
+gap: 75px;
+margin-top: 50px;
+
+}
+nav{
+    font-family: "Poppins";
+   
+}
+.stats_report{
+    height: 107px;
+}
+dt p{
+    font-size: 13px;
+}
+.chart11{
+  
+    width: 435px;
+    margin-top: -13px;
+    margin-left: 300px;
+}
+.chart22{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 600px;
+    /* margin-top: 90px; */
+    height: 400px;
+    padding: 20px;
+    margin-left: 275px;
+}
+.chart33{
+    width: 600px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    height: 400px;
+
+}
+
+.footer_company{
+    margin-left: 255px;
+    background-color: #3498DB;
+    font-family: "Poppins";
+
+    margin-top: 170px;
+}
+.sales h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #3498DB;
+    font-size: 30px;}
+.stats h3{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #3498DB;
+    font-size: 30px;
+    margin-top: -25px;
+    padding-bottom: 10px;
+}
+.dashboard{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #0b5485;
+    font-size: 50px;
+    
+}
+.icons{
+    background-color:#3498DB ;
+}
+.reports{
+    font-family: "Poppins";
+font-weight: 600;
+}
+.report-cards{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+  .sidebar-menu{
+    background-color: #3498DB;
+  } 
+  .leads{
+    width: 100%;
+    margin-top: 65px;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* padding: 25px; */
+    padding-left: 18px;
+    height: 310px;
+    margin-left: 235px;
+}
+li .head{
+    font-family: "Poppins";
+color:#0b5485 ;
+font-size: 15px;
+margin-left: 8px;
+
+font-weight: 600;
+}
+.recentleads{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #3498DB;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+  .list_leads{
+    display: flex;
+
+
+  }
+  .logo img {
+    width: 70%;
+    margin-left: 27px;
+
+}
+ 
+  .chartleads{
+   gap: 34px;
+    display: flex;
+  }
+  .Insurrancepackages{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #3498DB;
+    font-size: 30px;
+  }
+  .signout-button{
+    background-color: white;
+color: inherit;
+font-family: "Poppins";
+
+text-align: start;
+  }
+  
+  .signout-menu{
+    font-size: 15px;
+    font-family: "Poppins";
+
+  }
+  .company-info {
+    margin-top: 31px;
+    color: #3498DB;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 23px;
+    /* border-radius: 0.375rem; */
+    /* box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); */
+    transform: translateY(-1rem);
+    margin-left: 30px;
+    border: none;
+
+    position: absolute;
+}
+.profile_company{
+    width: 175px;
+}
+.company_font{
+    color: #3498DB;
+
+}
+.head img{
+    position:absolute;
+    width: 28px;
+    margin-left: -30px;
+    margin-top: -6px;
+}
+.bids_cards{
+    width: 275px;
+    padding-left: 51px;
+    box-shadow: 12px 23px 0px 0px #3498dbb2, 0 2px 18px 0 rgba(0, 0, 0, 0.19);
+}
+.bids_cards:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    top: -4px;
+    border: 1px solid #cccccc;
+    background-color: white;
+  }
+  .bids_cards:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -16px;
+    right: -16px;
+    background: #00838d;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    transform: scale(2);
+    transform-origin: 50% 50%;
+    transition: transform 0.15s ease-out;
+  }
+
+.go-corner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background-color: #0b5485;
+    border-radius: 0 4px 0 32px;
+  }
+  
+  .go-arrow {
+    margin-top: -4px;
+    margin-right: -4px;
+    color: white;
+    font-family: courier, sans;
+  }
+
+  .bids_cards:hover:before {
+    transform: scale(2.15);
+  }
+

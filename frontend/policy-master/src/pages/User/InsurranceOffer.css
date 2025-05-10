@@ -1,0 +1,76 @@
+.notif-item {
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    width: 50%;
+    /* background-color: #b3cde2; */
+    margin-top: 15px;
+}
+.insur-place {
+    background-color: #3498DB;
+    width: 100%;
+    font-family: 'Poppins';
+    padding: 10px;
+
+    font-size: 16px;
+    /* margin-left: 8px; */
+    border-radius: 8px;
+    /* margin-top: -13px; */
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+.insur-place:hover{
+    background-color: #1587d3;
+
+}
+.notif-item li {
+    list-style-type: none;
+    width: 110%;
+
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    font-family: 'Poppins';
+  }
+  .notif-item li label{
+    color: #4c6daf;
+    font-weight: 600;
+  }
+  .notification-container_1 {
+    gap: 20px;
+    justify-content: center;
+padding-bottom: 20px;
+    flex-direction: row;
+}
+.insurrance-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin-left: 485px;
+    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* transition: transform 0.3s ease-in-out; */
+    margin-bottom: 20px;
+    height: 415px;
+}
+
+.insur-image{
+    object-fit: cover;
+}
+.notif-item span{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: white;
+    border-radius: 30px;
+    background-color: #6EC531;
+    padding: 8px;
+    font-size: 13px;
+    font-family: 'Poppins';
+}
